@@ -3,26 +3,29 @@ import random
 
 
 word_list = ["apple", "banana", "orange", "grape", "kiwi"]
-
-
 secret_word = random.choice(word_list)
 
-while True:
+def check_guess(guess):
 
-    guess = input("Guess a letter: ")
+    guess = guess.lower()
 
-
-    if guess.isalpha() and len(guess) == 1:
-
-        break
+    if guess in secret_word:
+        print(f"Good guess! {guess} is in the word.")
     else:
+        print(f"Sorry, {guess} is not in the word. Try again.")
 
-        print("Invalid letter. Please, enter a single alphabetical character.")
+def ask_for_input():
 
+    while True:
 
-if guess in secret_word:
-    print(f"Good guess! {guess} is in the word.")
-else:
-    print(f"Sorry, {guess} is not in the word. Try again.")
+        guess = input("Guess a letter: ")
+ 
+        if guess.isalpha() and len(guess) == 1:
 
+            check_guess(guess)
+            break
+        else:
+            print("Invalid letter. Please, enter a single alphabetical character.")
+
+ask_for_input()
 print(f"The word was: {secret_word}")
