@@ -24,7 +24,7 @@ To install and run the Hangman Game on your local machine, follow these steps:
   ```cd hangman-game
 
 3. Run the script.
-   ```python3 hangman.py
+   ```python3 hangman.py  ```
 
 ## Usage
 
