@@ -29,7 +29,8 @@ To install and run the Hangman Game on your local machine, follow these steps:
    ```bash
    python3 milestone_2.py  
    python3 milestone_3.py  
-   python3 milestone_4.py  
+   python3 milestone_4.py
+   python3 milestone_5.py  
 
 ## Usage
 
@@ -41,6 +42,7 @@ hangman-game/
 │ milestone_2.py
 │ milestone_3.py
 │ milestone_4.py
+│ milestone_5.py
 │ README.md
 │ .gitignore
 └─── other files and directories
