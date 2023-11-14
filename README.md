@@ -26,7 +26,7 @@ To install and run the Hangman Game on your local machine, follow these steps:
 
 4. Run the script.
    ```bash
-   python3 hangman.py  
+   python3 milestone_2.py  
 
 ## Usage
 
@@ -35,7 +35,7 @@ To install and run the Hangman Game on your local machine, follow these steps:
 
 ## File Structure
 hangman-game/
-│ hangman.py
+│ milestone_2.py
 │ README.md
 │ .gitignore
 └─── other files and directories
