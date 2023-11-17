@@ -47,8 +47,7 @@ hangman-game/
 │ .gitignore
 └─── other files and directories
 ## License
-
-This should be more copy-paste friendly as a single block.
+This project is licensed under the terms of the MIT license
 
 
 
